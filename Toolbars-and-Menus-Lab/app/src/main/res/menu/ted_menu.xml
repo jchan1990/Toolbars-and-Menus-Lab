@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/ic_chevron_left_black_24dp"
+        android:title="Back"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/tedTalk"
+        android:icon="@drawable/ted"
+        android:title="Ted"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Download"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bookbark"
+        android:icon="@drawable/ic_bookmark_black_24dp"
+        android:title="Download"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        android:title="Download"
+        app:showAsAction="always" />
+
+</menu>

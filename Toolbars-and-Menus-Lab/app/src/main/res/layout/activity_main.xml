@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qube.toolbars_and_menus_lab.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/podCastsPrimary"
+        android:elevation="4dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageButton
+        android:id="@+id/transmission"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/toolbar"
+        android:scaleType="fitXY"
+        android:src="@drawable/transmission" />
+
+    <ImageButton
+        android:id="@+id/nerdist"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@+id/transmission"
+        android:scaleType="fitXY"
+        android:src="@drawable/nerdist" />
+
+    <ImageButton
+        android:id="@+id/comedycentral"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@+id/nerdist"
+        android:scaleType="fitXY"
+        android:src="@drawable/comedycentral" />
+
+    <ImageButton
+        android:id="@+id/thebugle"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@+id/comedycentral"
+        android:scaleType="fitXY"
+        android:src="@drawable/thebugle" />
+
+    <ImageButton
+        android:id="@+id/iterate"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/transmission"
+        android:scaleType="fitXY"
+        android:src="@drawable/iterate" />
+
+    <ImageButton
+        android:id="@+id/freshair"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/transmission"
+        android:layout_toRightOf="@+id/iterate"
+        android:scaleType="fitXY"
+        android:src="@drawable/freshair" />
+
+    <ImageButton
+        android:id="@+id/dailyshow"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/transmission"
+        android:layout_toRightOf="@+id/freshair"
+        android:scaleType="fitXY"
+        android:src="@drawable/dailyshow" />
+
+    <ImageButton
+        android:id="@+id/qualitycontrol"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/transmission"
+        android:layout_toRightOf="@+id/dailyshow"
+        android:scaleType="fitXY"
+        android:src="@drawable/qualitycontrol" />
+
+</RelativeLayout>
